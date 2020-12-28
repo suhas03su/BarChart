@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var newVariableToCheck: String = ""
     @IBOutlet weak var chartView: MacawChartView!
     override func viewDidLoad() {
         super.viewDidLoad()
